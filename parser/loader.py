@@ -3,7 +3,7 @@ import this function and provide the path the your .env file """
 
 import os
 import re
-
+__all__ = ("load",)
 
 def load(path=""):
 	"""
