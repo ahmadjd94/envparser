@@ -1,7 +1,7 @@
 from setuptools import setup
-setup(name='envloader',
-version='0.1',
-description='simple script to load environment constants from .env file',
+setup(name='os_envload',
+version='0.2.1',
+description='simple script to load environment constants from .env file into OS Variables',
 url='https://github.com/ahmadjd94/envparser',
 
 
@@ -38,7 +38,7 @@ classifiers=[
 ],
 
 keywords='load variables environment',
-packages=['parser'],
+packages=['os_envload'],
 
 install_requires=[],
 

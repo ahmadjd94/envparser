@@ -1,3 +1,3 @@
 from .loader import *
 
-__all__  = (loader.__all__,)
+__all__ = ("load",)
